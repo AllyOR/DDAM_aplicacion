@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { MuertoPageRoutingModule } from './muerto-routing.module';
 
 import { MuertoPage } from './muerto.page';
+import {ComponentsModule} from "../../components.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    MuertoPageRoutingModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        MuertoPageRoutingModule,
+        ComponentsModule
+    ],
   declarations: [MuertoPage]
 })
 export class MuertoPageModule {}

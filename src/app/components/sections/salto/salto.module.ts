@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { SaltoPageRoutingModule } from './salto-routing.module';
 
 import { SaltoPage } from './salto.page';
+import {ComponentsModule} from "../../components.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    SaltoPageRoutingModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        SaltoPageRoutingModule,
+        ComponentsModule
+    ],
   declarations: [SaltoPage]
 })
 export class SaltoPageModule {}

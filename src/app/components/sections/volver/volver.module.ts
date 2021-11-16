@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { VolverPageRoutingModule } from './volver-routing.module';
 
 import { VolverPage } from './volver.page';
+import {ComponentsModule} from "../../components.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    VolverPageRoutingModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        VolverPageRoutingModule,
+        ComponentsModule
+    ],
   declarations: [VolverPage]
 })
 export class VolverPageModule {}
