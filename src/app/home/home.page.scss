@@ -1,3 +1,5 @@
+//Alison
+
 #container {
   text-align: center;
 
@@ -24,4 +26,23 @@
 
 #container a {
   text-decoration: none;
+}
+
+ion-content.background{
+  --background: url("/assets/images/png/fondo-inicio.png");
+}
+
+//Zamara
+
+.myClass {
+  //background-color: #44C5CE;
+  height: 100%;
+  width: 100%;
+  font-family: Atlanta;
+  text-align: center;
+  justify-content: center;
+}
+
+.spinner {
+  transition: true;
 }

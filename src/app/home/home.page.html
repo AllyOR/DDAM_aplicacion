@@ -1,17 +1,47 @@
 <app-header></app-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<!--<ion-content [fullscreen]="true">-->
+<!--  <ion-header collapse="condense">-->
+<!--    <ion-toolbar>-->
+<!--      <ion-title size="large">Blank</ion-title>-->
+<!--    </ion-toolbar>-->
+<!--  </ion-header>-->
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<!--  <div id="container">-->
+<!--    <strong>Ready to create an app?</strong>-->
+<!--    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
+<!--  </div>-->
+
+<!--</ion-content>-->
+
+
+
+<!--<ion-content [fullscreen]="true" class="background">-->
+<ion-content class="background">
+<!--  <div class="container">-->
+<!--    <div>-->
+<!--      <img src="/assets/images/png/fondo-inicio.png">-->
+<!--    </div>-->
+<!--  </div>-->
+
+  <div class="myClass">
+<!--  <div>-->
+    <ion-grid>
+      <br>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="8">
+          <ion-text color="light" >
+            <h1>Cargando...</h1>
+            <p class="parrafos-blancos">¡Por favor espere!</p>
+          </ion-text>
+          <ion-spinner class="spinner" name="bubbles" color="light" ></ion-spinner>
+          <ion-img side="center" src="/assets/images/png/p-inicio" style="height:40%" ></ion-img>
+          <ion-text color="light" class="titulos" >
+            <h1>Sabías que...</h1>
+            <p class="parrafos-blancos">Tu perro tiene sentido del tiempo y le haces falta cuando te vas.</p>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
-
-
-
 </ion-content>
