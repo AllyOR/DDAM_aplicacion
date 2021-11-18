@@ -1,9 +1,9 @@
 ion-content.background{
-  --background: url("/assets/images/png/fondo-entrenamiento.png");
+  --background: url("/assets/images/fondo-entrenamiento.png");
 }
 
-ion-text{
-  font-size: 1.5rem;
+ion-card{
+  -webkit-border-radius: 15px;
 }
 
 p{

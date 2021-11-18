@@ -29,18 +29,18 @@
 }
 
 ion-content.background{
-  --background: url("/assets/images/png/fondo-inicio.png");
+  --background: url("/assets/images/fondo-inicio.png");
 }
 
 //Zamara
 
 .myClass {
-  //background-color: #44C5CE;
   height: 100%;
   width: 100%;
-  font-family: Atlanta;
   text-align: center;
   justify-content: center;
+  font-size: 1.2rem;
+  color: white;
 }
 
 .spinner {

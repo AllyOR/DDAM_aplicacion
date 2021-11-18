@@ -1,9 +1,9 @@
 ion-content.background{
-  --background: url("/assets/images/png/fondo-entrenamiento.png");
+  --background: url("/assets/images/fondo-entrenamiento.png");
 }
 
-ion-text{
-  font-size: 1.5rem;
+ion-card{
+  -webkit-border-radius: 15px;
 }
 
 p{
@@ -14,7 +14,7 @@ p{
 }
 
 ul, p{
-  color: #46b0e0;
+  color: #e04055;
   font-size: 1rem;
 }
 
@@ -23,5 +23,5 @@ ion-card {
 }
 
 ion-card-title{
-  color: #3a7be0;
+  color: indianred;
 }

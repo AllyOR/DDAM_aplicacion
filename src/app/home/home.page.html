@@ -1,47 +1,58 @@
 <app-header></app-header>
 
-<!--<ion-content [fullscreen]="true">-->
-<!--  <ion-header collapse="condense">-->
-<!--    <ion-toolbar>-->
-<!--      <ion-title size="large">Blank</ion-title>-->
-<!--    </ion-toolbar>-->
-<!--  </ion-header>-->
-
-<!--  <div id="container">-->
-<!--    <strong>Ready to create an app?</strong>-->
-<!--    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
-<!--  </div>-->
-
-<!--</ion-content>-->
-
-
-
-<!--<ion-content [fullscreen]="true" class="background">-->
 <ion-content class="background">
-<!--  <div class="container">-->
-<!--    <div>-->
-<!--      <img src="/assets/images/png/fondo-inicio.png">-->
-<!--    </div>-->
-<!--  </div>-->
 
   <div class="myClass">
-<!--  <div>-->
     <ion-grid>
       <br>
       <ion-row class="ion-justify-content-center">
         <ion-col size="8">
-          <ion-text color="light" >
-            <h1>Cargando...</h1>
+          <ion-text color="dark" >
+            <h1>CARGANDO...</h1>
             <p class="parrafos-blancos">¡Por favor espere!</p>
           </ion-text>
-          <ion-spinner class="spinner" name="bubbles" color="light" ></ion-spinner>
-          <ion-img side="center" src="/assets/images/png/p-inicio" style="height:40%" ></ion-img>
-          <ion-text color="light" class="titulos" >
-            <h1>Sabías que...</h1>
+          <ion-spinner class="spinner" name="bubbles" color="dark" *ngIf="show"></ion-spinner>
+          <ion-img side="center" src="/assets/images/p-inicio" style="height:40%" ></ion-img>
+          <ion-text color="dark" class="titulos" >
+            <h1>SABÍAS QUE...</h1>
             <p class="parrafos-blancos">Tu perro tiene sentido del tiempo y le haces falta cuando te vas.</p>
           </ion-text>
         </ion-col>
       </ion-row>
     </ion-grid>
   </div>
+
+
+
+
+<!--  <ion-tabs>-->
+<!--    <ion-tab-bar slot="bottom">-->
+
+<!--      <ion-tab-button tab="speakers" routerLink="/options">-->
+<!--        <ion-icon name="person-circle"></ion-icon>-->
+<!--        <ion-label>Créditos</ion-label>-->
+<!--      </ion-tab-button>-->
+
+<!--      <ion-tab-button tab="about">-->
+<!--        <ion-icon name="information-circle"></ion-icon>-->
+<!--        <ion-label>Información</ion-label>-->
+<!--      </ion-tab-button>-->
+<!--    </ion-tab-bar>-->
+<!--  </ion-tabs>-->
+<!--  -->
+<!--  -->
+<!--  <ion-toggle checked></ion-toggle>-->
+
+
+
+<!--  <ion-footer>-->
+<!--    <ion-toolbar>-->
+<!--      <ion-title class="ion-text-center">UNIR</ion-title>-->
+<!--    </ion-toolbar>-->
+<!--  </ion-footer>-->
+
+
+  <ion-button (click)="redirectTo()">Redirect to rounting-page-two</ion-button>
+
+
 </ion-content>

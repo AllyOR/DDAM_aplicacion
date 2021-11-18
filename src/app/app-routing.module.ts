@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'volver',
     loadChildren: () => import('./components/sections/volver/volver.module').then( m => m.VolverPageModule)
   },
+  {
+    path: 'contacts',
+    loadChildren: () => import('./components/contacts/contacts.module').then( m => m.ContactsPageModule)
+  },
 ];
 
 @NgModule({
