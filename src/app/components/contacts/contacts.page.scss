@@ -1,0 +1,25 @@
+//.classContact {
+//  background-color: #92C393;
+//  text-align: center;
+//  justify-content: center;
+//}
+
+.borde, ion-item {
+  position: center;
+  background-color:#ffffff;
+  border-radius:1em;
+}
+
+//.posicion {
+//  position: center;
+//  bottom:2em;
+//  right:2em;
+//}
+
+ion-content.background{
+  --background: url("/assets/images/fondo-contacto.png");
+}
+
+ion-card-title{
+  color: darkgreen;
+}

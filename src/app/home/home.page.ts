@@ -14,13 +14,6 @@ export class HomePage {
       this.show = false;
     }, 5000);
   }
-
-  // redirectTo() {
-  //   setTimeout (() => {
-  //     this.show = false;
-  //   }, 7000 );
-  //   this.router.navigateByUrl('/options');
-  // }
 }
 
 

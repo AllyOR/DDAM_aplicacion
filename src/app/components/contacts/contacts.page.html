@@ -1,53 +1,43 @@
 <app-header></app-header>
 
-<ion-content>
-  <ion-grid>
+<ion-content class="background">
 
+  <div class="classContact">
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="12">
+          <ion-img side="center" src="/assets/images/icono-2.png" style="height:5em" ></ion-img>
 
+          <ion-card class="borde">
+            <ion-card-header class="ion-text-center">
+              <ion-card-title>¡TE ESCUCHAMOS!</ion-card-title>
+              <ion-card-subtitle>Eres muy importante para nosotros, por eso te responderemos muy pronto.</ion-card-subtitle>
+            </ion-card-header>
 
-    <ion-row class="ion-justify-content-center">
-      <ion-col size="8">
-        <ion-card>
-          <ion-card-header>
-            <ion-card-title> ¡¡Te escuchamos!! </ion-card-title>
-            <ion-card-subtitle> Eres muy importante para nosotros, por eso te responderemos muy pronto.</ion-card-subtitle>
+            <ion-card-content class="borde">
+              <ion-item color="dark">
+                <ion-label position="floating">Nombre</ion-label>
+                <ion-input  type="name" required [(ngModel)]="nombre"> </ion-input>
+              </ion-item>
 
-          </ion-card-header>
-          <ion-card-content>
-            <ion-item><ion-label position="floating">Nombre</ion-label>
+              <ion-item color="dark">
+                <ion-label position="floating">Correo electrónico</ion-label>
+                <ion-input type="email" required [(ngModel)]="correo"> </ion-input>
+              </ion-item>
 
-              <ion-input  type="text" required [(ngModel)]="nombre"> </ion-input>
-            </ion-item>
+              <ion-item color="dark">
+                <ion-label position="floating">Déjanos tu Mensaje</ion-label>
+                <ion-input type="text" required [(ngModel)]="mensaje" > </ion-input>
+              </ion-item>
 
+              <ion-button expand="full" position="start" color="warning" size ="small" (click)="click()" >Enviar<ion-icon slot="end" name="send"></ion-icon> </ion-button>
 
-            <ion-item><ion-label position="floating">
-              Correo electrónico</ion-label>
-
-              <ion-input type="text" required [(ngModel)]="correo"> </ion-input>
-            </ion-item>
-
-
-            <ion-item><ion-label position="floating">
-              Déjanos tu Mensaje</ion-label>
-
-              <ion-input type="text" required [(ngModel)]="mensaje" > </ion-input>
-            </ion-item>
-
-
-            <ion-button color="warning" expand="full" (click)="click()" > Enviar  <ion-icon slot="end" name="send"></ion-icon> </ion-button>
-
-
-
-          </ion-card-content>
-
-        </ion-card>
-
-      </ion-col>
-
-    </ion-row>
-
-  </ion-grid>
-
-
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-img class="posicion" src="/assets/images/p-contacto" style="height:7em"></ion-img>
+  </div>
 
 </ion-content>

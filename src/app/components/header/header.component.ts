@@ -14,6 +14,6 @@ export class HeaderComponent implements OnInit {
 
   readonly toggleMenu = async () => {
     await this.menuController.toggle();
-  }
+  };
 
 }

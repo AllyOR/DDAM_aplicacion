@@ -9,7 +9,7 @@ export class ContactsPage implements OnInit {
 
   constructor() { }
 
-  public mensaje: string;
+  mensaje: string;
   correo: string;
   nombre: string;
   msg = '';
