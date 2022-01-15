@@ -38,6 +38,12 @@
       </ion-row>
     </ion-grid>
     <ion-img class="posicion" src="/assets/images/p-contacto" style="height:7em"></ion-img>
+
+    <ion-list>
+      <ion-item *ngFor="let i of list2">
+        {{i.nam}}
+      </ion-item>
+    </ion-list>
   </div>
 
 </ion-content>
